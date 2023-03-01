@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+#perfil {
+    border-radius: 50%;
+    border: 5px solid #555;
+    width: 200px;
+    height: 200px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin: 15px 15px;
+    padding: 15px 15px;
+}
+
+#redes_sociales{
+  width: 50px;
+  height: 50x;
+}
+
+#cabecera {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: #171a21;
+  padding: 15px 15px;
+  border: 2px solid #2A475E;  
+}
+
+#div_body_info{
+  width: 300px;
+  padding: 50px 50px;
+  float: left;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #2A475E; 
+}
+
+#cabecera #nombre {
+  float: left;
+  color: white;
+}
+
+
+
+
+#cuerpo{
+  color:#66c0f4;
+  font-weight: bold;
+  font-family:'Raleway',sans-serif;
+
+}
+
+#info{
+  width: 300px;
+  border: 15px solid #1B2838;
+  padding: 50px 50px;
+  float: left;
+  width: 100%;
+}
+
+
+body{
+  padding: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1B2838), to(#2A475E)) fixed;
+}
+
+#perfil:hover{
+  transform:scale(2,2 );
+}
+
+#footer{
+  font-size: 25px;
+  color: #9FE7F5;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
